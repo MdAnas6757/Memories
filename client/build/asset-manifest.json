@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.8249ba95.chunk.css",
-    "main.js": "/static/js/main.2ae194da.chunk.js",
-    "main.js.map": "/static/js/main.2ae194da.chunk.js.map",
+    "main.js": "/static/js/main.9b0e0b8c.chunk.js",
+    "main.js.map": "/static/js/main.9b0e0b8c.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.f19c1f85.chunk.js": "/static/js/2.f19c1f85.chunk.js",
     "static/js/2.f19c1f85.chunk.js.map": "/static/js/2.f19c1f85.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9751aa6a38e45b6ca7876e754c8c2388.js": "/precache-manifest.9751aa6a38e45b6ca7876e754c8c2388.js",
+    "precache-manifest.a06fb48257e875c223d0be3873bc7fb2.js": "/precache-manifest.a06fb48257e875c223d0be3873bc7fb2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.8249ba95.chunk.css.map": "/static/css/main.8249ba95.chunk.css.map",
     "static/media/memories-Logo.png": "/static/media/memories-Logo.e342bbed.png",
