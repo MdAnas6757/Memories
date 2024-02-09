@@ -15,15 +15,17 @@ const app=express();
 app.use(bodyParser.json({limit:"30mb",extended:true}));
 app.use(bodyParser.urlencoded({limit:"30mb",extended:true}));
 app.use(cors({
-    origin: 'https://memories-server-h2c0.onrender.com/'
+    origin: process.env.CLIENT_URL || 'http://localhost:3000',
+    credentials: true,
 })); 
 app.use('/posts',postRoutes);
 app.use('/user',userRoutes);
-app.use(express.static(path.join(__dirname, '../client/build')));
+// app.use(express.static(path.join(__dirname, '../client/build')));
 
-app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
+// app.get('*', function(req, res) {
+//     res.sendFile(path.join(__dirname, '../client/build/index.html'));
+// });
+
 const port=process.env.PORT||5000
 //lisen port
 app.listen(port,()=>{

@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://memories-server-h2c0.onrender.com/",
+  // "proxy": "https://memories-server-h2c0.onrender.com/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.9.1",
